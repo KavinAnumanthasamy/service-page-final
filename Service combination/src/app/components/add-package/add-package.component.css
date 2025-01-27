@@ -1,0 +1,118 @@
+.page-container {
+  padding: 40px 20px;
+  background-color: var(--background-color);
+  min-height: calc(100vh - 64px);
+}
+
+.package-form {
+  max-width: 800px;
+  margin: 0 auto;
+  background: var(--card-background);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 32px;
+}
+
+.form-title {
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 32px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.services-section {
+  margin: 24px 0;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: var(--border-radius);
+}
+
+.services-title {
+  margin-bottom: 16px;
+  color: var(--text-primary);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.services-list {
+  display: grid;
+  gap: 12px;
+}
+
+.service-option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  background: white;
+  border-radius: var(--border-radius);
+  transition: background-color 0.2s ease;
+}
+
+.service-option:hover {
+  background-color: #f5f5f5;
+}
+
+.service-checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.service-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.service-name {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.service-price {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+.package-summary {
+  margin-top: 24px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: var(--border-radius);
+}
+
+.total-price {
+  font-size: 20px;
+  color: var(--accent-color);
+  text-align: right;
+  font-weight: 600;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+
+.validation-error {
+  color: var(--error-color);
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.header-section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-subtitle {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-top: 0.5rem;
+} 
